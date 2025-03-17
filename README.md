@@ -153,7 +153,8 @@ public static double calculateTravelTime(double[] loc1, double[] loc2, double sp
 {
   "deliveryBoy": {
     "name": "Aman",
-    "location": [12.9352, 77.6245]
+    "location": [12.9352, 77.6245],
+    "speed":"20.0"
   },
   "r1": [12.9362, 77.6240],
   "c1": [12.9372, 77.6235],
@@ -168,7 +169,6 @@ public static double calculateTravelTime(double[] loc1, double[] loc2, double sp
 ```
 
 
-
 <a name = "curl"></a>
 ```CURL
 curl --location 'http://localhost:8080/delivery/shortest-time' \
@@ -176,7 +176,8 @@ curl --location 'http://localhost:8080/delivery/shortest-time' \
 --data '{
   "deliveryBoy": {
     "name": "Aman",
-    "location": [12.9352, 77.6245]
+    "location": [12.9352, 77.6245],
+    "speed":"20.0"
   },
   "r1": [12.9362, 77.6240],
   "c1": [12.9372, 77.6235],
