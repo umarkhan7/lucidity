@@ -1,5 +1,5 @@
 # Lucidity
-Senior Backend Engineer Assesment
+Senior Backend Engineer Assessment
 # Delivery Optimization Using the Haversine Formula
 
 This project provides a solution for optimizing delivery routes using the **Haversine formula** to calculate travel times between geo-coordinates. It calculates the shortest delivery time for a delivery boy assigned to pick up orders from two restaurants and deliver them to two consumers.
