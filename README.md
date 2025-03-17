@@ -147,7 +147,7 @@ public static double calculateTravelTime(double[] loc1, double[] loc2, double sp
 
 ```-->
 ### HOW TO RUN THE CODE
-1. gitclone the deliveryoptimizer service.
+1. gitclone the master brach- deliveryoptimizer service.
 2. Paste the below curl in the postman [CLICK HERE](#curl)
 ```json
 {
